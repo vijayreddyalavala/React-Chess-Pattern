@@ -1,0 +1,29 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.chessPalette {
+  border: 20px solid red;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: auto;
+  align-items: center;
+}
+
+.chessPalette_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.blackSquare {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+}
+
+.whiteSquare {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
